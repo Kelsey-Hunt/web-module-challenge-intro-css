@@ -84,12 +84,14 @@ nav {
 
 nav a{
     display: inline-block;
-    padding: 1%, 0;
-    width: 10%;
+    padding: 1%;
+    width: 15%;
+    height: 5%;
     text-align: center;
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    font-size: 1.8rem;
 }
 
 .orange {
@@ -99,7 +101,7 @@ nav a{
 
 .blue {
     background-color: #5ED3EB;
-    margin: 0 24%;
+    margin: 0 15%;
 }
 
 .yellow {
@@ -150,7 +152,6 @@ nav a{
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    border: 2px solid red;
 }
 
 /* Campfire Section */
@@ -162,7 +163,6 @@ nav a{
     margin-top: 0;
     margin: auto;
     text-align: center;
-    border: 2px solid blue;
 }
 
 .campfire {
@@ -174,6 +174,11 @@ nav a{
 .camper {
     padding: 2%;
    
+}
+
+.campfire text {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .campfire img {
@@ -189,4 +194,19 @@ nav a{
 
 .bold {
     font-weight: bold;
+}
+
+
+.bg-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #F9E7DC;
 }
