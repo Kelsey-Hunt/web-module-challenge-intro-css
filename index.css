@@ -47,56 +47,61 @@ table {
 	border-spacing: 0;
 }
 
-
+/* General Styles */
 
 * {
    box-sizing: border-box; 
+   border: 1px solid grey;
+   max-width: 100%;
 }
 
-.nav-main{
-    justify-content: space-between;
-    margin: auto;
-    width: 75%;
-    border: 10px solid red;
-    display:flex;
+html{
+    font-size: 62.5%;
 }
 
-.nav-links {
-    text-align: center;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
     font-family:"Chelsea Market";
+}
+
+/* Header Styles */
+
+nav {
+    padding: 4% 0;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1%, 0;
+    width: 10%;
+    text-align: center;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
-    font-size: large;
-    
+    font-family: "Roboto Mono";
 }
 
-.plan-your-visit {
-    background-color:#FF764E;
-    display: inline-block;
-    text-align: center;
-    margin: 2%;
-    padding: 5%;
-    border-radius: 25px;
-    border: 1px solid blue;
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
 }
 
-.learn-about-the-park {
-    background-color:#5ED3EB;
-    display: inline-block;
-    text-align: center;
-    margin: 2%;
-    padding: 5%;
-    border-radius: 25px;
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
 }
 
-.get-involved {
-    background-color:#FFCD69;
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+
+.title-container{
     display: inline-block;
-    text-align: center;
-    margin: 2%;
-    padding: 5%;
-    border-radius: 25px;
+}
+
+.header-img{
+    height: 10%;
+    width: 10%;
 }
