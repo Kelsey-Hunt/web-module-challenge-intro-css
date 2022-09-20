@@ -47,6 +47,56 @@ table {
 	border-spacing: 0;
 }
 
+
+
+* {
+   box-sizing: border-box; 
+}
+
+.nav-main{
+    justify-content: space-between;
+    margin: auto;
+    width: 75%;
+    border: 10px solid red;
+    display:flex;
+}
+
+.nav-links {
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    font-family:"Chelsea Market";
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
 .plan-your-visit {
     background-color:#FF764E;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 25px;
+    border: 1px solid blue;
+}
+
+.learn-about-the-park {
+    background-color:#5ED3EB;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 25px;
+}
+
+.get-involved {
+    background-color:#FFCD69;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    padding: 5%;
+    border-radius: 25px;
 }
