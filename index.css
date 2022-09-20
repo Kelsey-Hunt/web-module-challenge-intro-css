@@ -62,13 +62,24 @@ html{
 body{
     font-size: 1.6rem;
     line-height: 1.5;
-    font-family:"Chelsea Market";
+    font-family:"Roboto Mono";
+}
+
+h1 {
+    font-family: "Chelsea Market", cursive;
+    font-size: 5.5rem;
+}
+
+section {
+    padding: 4%, 0;
+    width: 100%;
+    margin: auto;
 }
 
 /* Header Styles */
 
 nav {
-    padding: 4% 0;
+    padding: 2% 0;
 }
 
 nav a{
@@ -79,7 +90,6 @@ nav a{
     border-radius: 10px;
     color: white;
     text-decoration: none;
-    font-family: "Roboto Mono";
 }
 
 .orange {
@@ -97,11 +107,66 @@ nav a{
     margin-right: 10%;
 }
 
-.title-container{
+/* Title Section */
+
+.cta {
+    position: relative;
+    margin: 2%;
+}
+
+.text, .image{
     display: inline-block;
 }
 
-.header-img{
-    height: 10%;
-    width: 10%;
+.image {
+    width: 30%;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.text {
+    width: 55%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 3;
+    position: absolute;
+    top: 40px;
+    font-size: 2rem;
+}
+
+/* Text Section */
+
+
+
+.beige {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    font-size: 1.7rem;
+    margin-top: 4%;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border: 2px solid red;
+}
+
+/* Campfire Section */
+
+
+.campfire {
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 0;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+.campfire img {
+    margin-top: 0;
+    padding-top: 0;
+
 }
